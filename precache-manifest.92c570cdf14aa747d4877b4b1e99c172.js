@@ -1,5 +1,9 @@
 self.__precacheManifest = [
   {
+    "revision": "9cb63ada02f2660c37ae7d08f552d312",
+    "url": "/pokemon-card-viewer/static/media/unhappy.9cb63ada.png"
+  },
+  {
     "revision": "0bcd689399d8b3c73bc792ec6d27eca7",
     "url": "/pokemon-card-viewer/static/media/page-loading.0bcd6893.gif"
   },
@@ -12,23 +16,23 @@ self.__precacheManifest = [
     "url": "/pokemon-card-viewer/static/js/runtime~main.f1fa52eb.js"
   },
   {
-    "revision": "e8a290844b047e3e3605",
-    "url": "/pokemon-card-viewer/static/js/main.e8a29084.chunk.js"
+    "revision": "aa0d923d65f03467bfff",
+    "url": "/pokemon-card-viewer/static/js/main.aa0d923d.chunk.js"
   },
   {
-    "revision": "fc9efc378baeaef7147a",
-    "url": "/pokemon-card-viewer/static/js/2.fc9efc37.chunk.js"
+    "revision": "b3ce71b94365bdd40227",
+    "url": "/pokemon-card-viewer/static/js/2.b3ce71b9.chunk.js"
   },
   {
-    "revision": "e8a290844b047e3e3605",
-    "url": "/pokemon-card-viewer/static/css/main.08e6c827.chunk.css"
+    "revision": "aa0d923d65f03467bfff",
+    "url": "/pokemon-card-viewer/static/css/main.ec8c0e22.chunk.css"
   },
   {
-    "revision": "fc9efc378baeaef7147a",
+    "revision": "b3ce71b94365bdd40227",
     "url": "/pokemon-card-viewer/static/css/2.2a3d11dc.chunk.css"
   },
   {
-    "revision": "095ebc5dff41e97e481bf6b85a279250",
+    "revision": "d313037f3b298be20e9cc1eff56d3ecc",
     "url": "/pokemon-card-viewer/index.html"
   }
 ];
