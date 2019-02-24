@@ -16,23 +16,23 @@ self.__precacheManifest = [
     "url": "/pokemon-card-viewer/static/js/runtime~main.f1fa52eb.js"
   },
   {
-    "revision": "313560cf9b789c5d0a5c",
-    "url": "/pokemon-card-viewer/static/js/main.313560cf.chunk.js"
+    "revision": "aa871d75104bf981b913",
+    "url": "/pokemon-card-viewer/static/js/main.aa871d75.chunk.js"
   },
   {
     "revision": "b3ce71b94365bdd40227",
     "url": "/pokemon-card-viewer/static/js/2.b3ce71b9.chunk.js"
   },
   {
-    "revision": "313560cf9b789c5d0a5c",
-    "url": "/pokemon-card-viewer/static/css/main.63e9edbc.chunk.css"
+    "revision": "aa871d75104bf981b913",
+    "url": "/pokemon-card-viewer/static/css/main.b3d67625.chunk.css"
   },
   {
     "revision": "b3ce71b94365bdd40227",
     "url": "/pokemon-card-viewer/static/css/2.2a3d11dc.chunk.css"
   },
   {
-    "revision": "af9fa7ee7fa7fda7c947b960e2991706",
+    "revision": "9a64633c154b9eb2fdfaa40e2b32dc6f",
     "url": "/pokemon-card-viewer/index.html"
   }
 ];
