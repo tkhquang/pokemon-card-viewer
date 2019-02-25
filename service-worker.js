@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/pokemon-card-viewer/precache-manifest.c15333f93f456d5bbaf092844f0fa640.js"
+  "/pokemon-card-viewer/precache-manifest.0239c55e1427f47361cf45d82eaf6e68.js"
 );
 
 workbox.clientsClaim();
