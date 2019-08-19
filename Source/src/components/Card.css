@@ -1,0 +1,51 @@
+.Card {
+  color: #FFF;
+  width: 20%;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  cursor: pointer;
+}
+
+.Card img {
+  max-width: 80%;
+  width: 240;
+  height: 330;
+  object-fit: cover;
+  margin: 20px auto;
+  display: inline-block;
+  vertical-align: top;
+  box-shadow: 1px 3px 5px #000;
+  background-color: #485461;
+  background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
+}
+
+.Card img.imgHiRes {
+  max-height: 80%;
+  width: auto;
+  margin: auto;
+}
+
+@media screen and (max-width: 1200px) {
+  .Card {
+    width: 25%;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .Card {
+    width: calc(100%/3);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Card {
+    width: calc(50%);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .Card {
+    width: calc(100%);
+  }
+}

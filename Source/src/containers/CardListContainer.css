@@ -1,0 +1,15 @@
+.CardListContainer {
+  color: #456;
+  list-style: none;
+  padding: 0 0 25px 0 ;
+}
+
+.CardListContainer li.not-found {
+  text-align: center;
+}
+
+.CardListContainer li.not-found img {
+  max-width: 300px;
+  height: auto;
+  margin: auto;
+}

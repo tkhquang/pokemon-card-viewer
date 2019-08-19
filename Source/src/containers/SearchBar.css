@@ -1,0 +1,143 @@
+.SearchBar {
+  background-color: #012;
+  border-bottom: 5px solid #678;
+}
+
+.SearchBar form {
+  width: 100%;
+  display: grid;
+  grid-template-areas:
+    "nameLabel nameInput nameInput nameInput setLabel setInput setInput setInput"
+    "rarityLabel rarityInput typeLabel typeInput subtypeLabel subtypeInput supertypeLabel supertypeInput"
+    "Submit Submit Submit Submit Submit Submit Submit Submit";
+  grid-template-columns: repeat(8, 10%);
+  grid-template-rows: auto;
+  grid-gap: 5px;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.SearchBar label[for="name"] {
+  grid-area: nameLabel;
+}
+
+.SearchBar input#name {
+  grid-area: nameInput;
+}
+
+.SearchBar label[for="set"] {
+  grid-area: setLabel;
+}
+
+.SearchBar input#set {
+  grid-area: setInput;
+}
+
+.SearchBar label[for="rarity"] {
+  grid-area: rarityLabel;
+}
+
+.SearchBar select#rarity {
+  grid-area: rarityInput;
+}
+
+.SearchBar label[for="type"] {
+  grid-area: typeLabel;
+}
+
+.SearchBar select#type {
+  grid-area: typeInput;
+}
+
+.SearchBar label[for="subtype"] {
+  grid-area: subtypeLabel;
+}
+
+.SearchBar select#subtype {
+  grid-area: subtypeInput;
+}
+
+.SearchBar label[for="subtype"] {
+  grid-area: supertypeLabel;
+}
+
+.SearchBar select#supertype {
+  grid-area: supertypeInput;
+}
+
+.SearchBar input[type="submit"] {
+  grid-area: Submit;
+  text-align: center;
+  margin: 20px auto 0px auto;
+  width: 80%;
+  min-width: 320px;
+  height: auto;
+  font-size: 14px;
+  color: #fff;
+  padding: 10px 20px;
+  background-color: #222;
+  border: 2px solid transparent;
+}
+
+.SearchBar input[type=submit]:hover {
+  border: 2px solid green;
+}
+
+.SearchBar input[type=submit]:focus {
+  background-color: #333;
+}
+
+.SearchBar input[type=submit]:disabled {
+  background-color: #222;
+  color: #aaa;
+  cursor: not-allowed;
+  border: 2px solid transparent;
+}
+
+.SearchBar input,
+.SearchBar select {
+  height: 30px;
+  color: grey;
+  background-color: #333;
+  border: 2px solid transparent;
+  margin: auto 2px;
+}
+.SearchBar input {
+  padding: 0 5px;
+}
+.SearchBar input:focus,
+.SearchBar select:focus {
+  border: 2px solid green;
+}
+
+.SearchBar label {
+  text-align: right;
+  margin: auto 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .SearchBar form {
+    grid-template-areas:
+      "nameLabel nameInput nameInput nameInput"
+      "setLabel setInput setInput setInput"
+      "rarityLabel rarityInput typeLabel typeInput"
+      "subtypeLabel subtypeInput supertypeLabel supertypeInput"
+      "Submit Submit Submit Submit";
+    grid-template-columns: repeat(4, 20%);
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .SearchBar form {
+    grid-template-areas:
+      "nameLabel nameInput nameInput"
+      "setLabel setInput setInput"
+      "rarityLabel rarityInput rarityInput"
+      "typeLabel typeInput typeInput"
+      "subtypeLabel subtypeInput subtypeInput"
+      "supertypeLabel supertypeInput supertypeInput"
+      "Submit Submit Submit";
+    grid-template-columns: repeat(3, 30%);
+  }
+}

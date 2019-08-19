@@ -1,18 +1,20 @@
 {
-  "main.css": "/pokemon-card-viewer/static/css/main.b3d67625.chunk.css",
-  "main.js": "/pokemon-card-viewer/static/js/main.ea35e4c6.chunk.js",
-  "main.js.map": "/pokemon-card-viewer/static/js/main.ea35e4c6.chunk.js.map",
-  "runtime~main.js": "/pokemon-card-viewer/static/js/runtime~main.f1fa52eb.js",
-  "runtime~main.js.map": "/pokemon-card-viewer/static/js/runtime~main.f1fa52eb.js.map",
-  "static/css/2.2a3d11dc.chunk.css": "/pokemon-card-viewer/static/css/2.2a3d11dc.chunk.css",
-  "static/js/2.b3ce71b9.chunk.js": "/pokemon-card-viewer/static/js/2.b3ce71b9.chunk.js",
-  "static/js/2.b3ce71b9.chunk.js.map": "/pokemon-card-viewer/static/js/2.b3ce71b9.chunk.js.map",
-  "index.html": "/pokemon-card-viewer/index.html",
-  "precache-manifest.0239c55e1427f47361cf45d82eaf6e68.js": "/pokemon-card-viewer/precache-manifest.0239c55e1427f47361cf45d82eaf6e68.js",
-  "service-worker.js": "/pokemon-card-viewer/service-worker.js",
-  "static/css/2.2a3d11dc.chunk.css.map": "/pokemon-card-viewer/static/css/2.2a3d11dc.chunk.css.map",
-  "static/css/main.b3d67625.chunk.css.map": "/pokemon-card-viewer/static/css/main.b3d67625.chunk.css.map",
-  "static/media/logo.png": "/pokemon-card-viewer/static/media/logo.f96378e6.png",
-  "static/media/page-loading.gif": "/pokemon-card-viewer/static/media/page-loading.0bcd6893.gif",
-  "static/media/unhappy.png": "/pokemon-card-viewer/static/media/unhappy.9cb63ada.png"
+  "files": {
+    "main.css": "/pokemon-card-viewer/static/css/main.9c333f8f.chunk.css",
+    "main.js": "/pokemon-card-viewer/static/js/main.90218e66.chunk.js",
+    "main.js.map": "/pokemon-card-viewer/static/js/main.90218e66.chunk.js.map",
+    "runtime~main.js": "/pokemon-card-viewer/static/js/runtime~main.427c33a5.js",
+    "runtime~main.js.map": "/pokemon-card-viewer/static/js/runtime~main.427c33a5.js.map",
+    "static/css/2.9522b9fe.chunk.css": "/pokemon-card-viewer/static/css/2.9522b9fe.chunk.css",
+    "static/js/2.c07411ae.chunk.js": "/pokemon-card-viewer/static/js/2.c07411ae.chunk.js",
+    "static/js/2.c07411ae.chunk.js.map": "/pokemon-card-viewer/static/js/2.c07411ae.chunk.js.map",
+    "index.html": "/pokemon-card-viewer/index.html",
+    "precache-manifest.3535f9510c0177e8f68e531e97db6bd3.js": "/pokemon-card-viewer/precache-manifest.3535f9510c0177e8f68e531e97db6bd3.js",
+    "service-worker.js": "/pokemon-card-viewer/service-worker.js",
+    "static/css/2.9522b9fe.chunk.css.map": "/pokemon-card-viewer/static/css/2.9522b9fe.chunk.css.map",
+    "static/css/main.9c333f8f.chunk.css.map": "/pokemon-card-viewer/static/css/main.9c333f8f.chunk.css.map",
+    "static/media/logo.png": "/pokemon-card-viewer/static/media/logo.f96378e6.png",
+    "static/media/page-loading.gif": "/pokemon-card-viewer/static/media/page-loading.0bcd6893.gif",
+    "static/media/unhappy.png": "/pokemon-card-viewer/static/media/unhappy.9cb63ada.png"
+  }
 }
